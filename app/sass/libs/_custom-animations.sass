@@ -1,0 +1,462 @@
+/**********************************************
+ **            SoftFadeIn animations
+ **********************************************
+
+@keyframes showReveal
+  100%
+    transform: scale3d(1, 1, 1) translate3d(0px, 0px, 0px)
+    opacity: 1
+
+
+.showReveal
+  animation-name: showReveal
+
+.showReveal-show
+  transform: scale3d(0.95, 0.95, 1) translate3d(0px, 70px, 0px)
+  will-change: transform, opacity
+  animation-duration: 0.7s
+  animation-timing-function: ease
+  animation-fill-mode: forwards
+  opacity: 0
+
+/*softFadeInUp */
+@-moz-keyframes softFadeInUp
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+
+@-webkit-keyframes softFadeInUp
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+
+@keyframes softFadeInUp
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+@-moz-keyframes softFadeInUp
+  0%
+    opacity: 0
+    -webkit-transform: translateY(20px)
+    -ms-transform: translateY(20px)
+    -o-transform: translateY(20px)
+    transform: translateY(20px)
+
+  100%
+    opacity: 1
+    -webkit-transform: translateY(0)
+    -ms-transform: translateY(0)
+    -o-transform: translateY(0)
+    transform: translateY(0)
+
+
+@-webkit-keyframes softFadeInUp
+  0%
+    opacity: 0
+    -webkit-transform: translateY(20px)
+    -ms-transform: translateY(20px)
+    -o-transform: translateY(20px)
+    transform: translateY(20px)
+
+  100%
+    opacity: 1
+    -webkit-transform: translateY(0)
+    -ms-transform: translateY(0)
+    -o-transform: translateY(0)
+    transform: translateY(0)
+
+
+@keyframes softFadeInUp
+  0%
+    opacity: 0
+    -webkit-transform: translateY(20px)
+    -ms-transform: translateY(20px)
+    -o-transform: translateY(20px)
+    transform: translateY(20px)
+
+  100%
+    opacity: 1
+    -webkit-transform: translateY(0)
+    -ms-transform: translateY(0)
+    -o-transform: translateY(0)
+    transform: translateY(0)
+
+
+.softFadeInUp
+  -webkit-animation-name: softFadeInUp
+  animation-name: softFadeInUp
+
+/*softFadeInLeft
+@-moz-keyframes softFadeInLeft
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+
+@-webkit-keyframes softFadeInLeft
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+
+@keyframes softFadeInLeft
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+
+@-moz-keyframes softFadeInLeft
+  0%
+    opacity: 0
+    -webkit-transform: translate3d(40px, 0, 0)
+    -ms-transform: translate3d(40px, 0, 0)
+    -o-transform: translate3d(40px, 0, 0)
+    transform: translate3d(40px, 0, 0)
+
+  100%
+    opacity: 1
+    -webkit-transform: none
+    -ms-transform: none
+    -o-transform: none
+    transform: none
+
+
+@-webkit-keyframes softFadeInLeft
+  0%
+    opacity: 0
+    -webkit-transform: translate3d(40px, 0, 0)
+    -ms-transform: translate3d(40px, 0, 0)
+    -o-transform: translate3d(40px, 0, 0)
+    transform: translate3d(40px, 0, 0)
+
+  100%
+    opacity: 1
+    -webkit-transform: none
+    -ms-transform: none
+    -o-transform: none
+    transform: none
+
+
+@keyframes softFadeInLeft
+  0%
+    opacity: 0
+    -webkit-transform: translate3d(40px, 0, 0)
+    -ms-transform: translate3d(40px, 0, 0)
+    -o-transform: translate3d(40px, 0, 0)
+    transform: translate3d(40px, 0, 0)
+
+  100%
+    opacity: 1
+    -webkit-transform: none
+    -ms-transform: none
+    -o-transform: none
+    transform: none
+
+
+.softFadeInLeft
+  -webkit-animation-name: softFadeInLeft
+  animation-name: softFadeInLeft
+  animation-delay: 0.2s
+  animation-duration: 1.9s
+
+/* softFadeInRight
+@-moz-keyframes softFadeInRight
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+
+@-webkit-keyframes softFadeInRight
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+
+@keyframes softFadeInRight
+  0%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+
+@-moz-keyframes softFadeInRight
+  0%
+    opacity: 0
+    -webkit-transform: translate3d(-40px, 0, 0)
+    -ms-transform: translate3d(-40px, 0, 0)
+    -o-transform: translate3d(-40px, 0, 0)
+    transform: translate3d(-40px, 0, 0)
+
+  100%
+    opacity: 1
+    -webkit-transform: none
+    -ms-transform: none
+    -o-transform: none
+    transform: none
+
+
+@-webkit-keyframes softFadeInRight
+  0%
+    opacity: 0
+    -webkit-transform: translate3d(-40px, 0, 0)
+    -ms-transform: translate3d(-40px, 0, 0)
+    -o-transform: translate3d(-40px, 0, 0)
+    transform: translate3d(-40px, 0, 0)
+
+  100%
+    opacity: 1
+    -webkit-transform: none
+    -ms-transform: none
+    -o-transform: none
+    transform: none
+
+
+@keyframes softFadeInRight
+  0%
+    opacity: 0
+    -webkit-transform: translate3d(-40px, 0, 0)
+    -ms-transform: translate3d(-40px, 0, 0)
+    -o-transform: translate3d(-40px, 0, 0)
+    transform: translate3d(-40px, 0, 0)
+
+  100%
+    opacity: 1
+    -webkit-transform: none
+    -ms-transform: none
+    -o-transform: none
+    transform: none
+
+
+.softFadeInRight
+  -webkit-animation-name: softFadeInRight
+  animation-name: softFadeInRight
+
+/**********************************************
+ **            Slide in only
+ **********************************************
+/*slide in left
+@keyframes slideLeftIn
+  from,
+  10%
+    -webkit-transform: translate3d(-100px, 0, 0)
+    transform: translate3d(-100px, 0, 0)
+    opacity: 0
+
+  30%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  to
+    opacity: 1
+
+.slideLeftIn
+  -webkit-animation-name: slideLeftIn
+  animation-name: slideLeftIn
+
+/*slide in & out right
+@keyframes slideRightIn
+  from,
+  10%
+    -webkit-transform: translate3d(100px, 0, 0)
+    transform: translate3d(100px, 0, 0)
+    opacity: 0
+
+  30%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  to
+    opacity: 1
+
+
+/*slide from bottom
+@keyframes slideBottomIn1
+  from,
+  15%
+    -webkit-transform: translate3d(0, 33px, 0)
+    transform: translate3d(0, 33px, 0)
+    opacity: 0
+
+  25%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  to
+    opacity: 1
+
+
+@keyframes slideBottomIn2
+  from,
+  25%
+    -webkit-transform: translate3d(0, 30px, 0)
+    transform: translate3d(0, 30px, 0)
+    opacity: 0
+
+  35%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  to
+    opacity: 1
+
+
+@keyframes slideBottomIn3
+  from,
+  35%
+    -webkit-transform: translate3d(0, 30px, 0)
+    transform: translate3d(0, 30px, 0)
+    opacity: 0
+
+  45%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  to
+    opacity: 1
+
+
+/**********************************************
+ **            Slide in and out
+ **********************************************
+/*slide in left
+@keyframes slideLeftInOut
+  from
+    -webkit-transform: translate3d(-100px, 0, 0)
+    transform: translate3d(-100px, 0, 0)
+    opacity: 0
+
+  10%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  90%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  to
+    -webkit-transform: translate3d(-100px, 0, 0)
+    transform: translate3d(-100px, 0, 0)
+    opacity: 0
+
+
+/*slide in & out right
+@keyframes slideRightInOut
+  from
+    -webkit-transform: translate3d(100px, 0, 0)
+    transform: translate3d(100px, 0, 0)
+    opacity: 0
+
+  10%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  90%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  to
+    -webkit-transform: translate3d(100px, 0, 0)
+    transform: translate3d(100px, 0, 0)
+    opacity: 0
+
+
+/*slide from bottom
+@keyframes slideBottomInOut1
+  from,
+  18%
+    -webkit-transform: translate3d(0, 33px, 0)
+    transform: translate3d(0, 33px, 0)
+    opacity: 0
+
+  23%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  75%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  80%,
+  to
+    -webkit-transform: translate3d(0, 33px, 0)
+    transform: translate3d(0, 33px, 0)
+    opacity: 0
+
+
+@keyframes slideBottomInOut2
+  from,
+  26%
+    -webkit-transform: translate3d(0, 30px, 0)
+    transform: translate3d(0, 30px, 0)
+    opacity: 0
+
+  31%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  65%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  70%,
+  to
+    -webkit-transform: translate3d(0, 30px, 0)
+    transform: translate3d(0, 30px, 0)
+    opacity: 0
+
+
+@keyframes slideBottomInOut3
+  from,
+  34%
+    -webkit-transform: translate3d(0, 30px, 0)
+    transform: translate3d(0, 30px, 0)
+    opacity: 0
+
+  39%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  55%
+    -webkit-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+  60%,
+  to
+    -webkit-transform: translate3d(0, 30px, 0)
+    transform: translate3d(0, 30px, 0)
+    opacity: 0
