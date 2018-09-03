@@ -1,5 +1,78 @@
 @@include('./_parts/_head.html', { "pagetitle": "Link project", "bodyclass": "", "index": true })
 
+<section class="sticky-sidebar">
+	<div class="sidebar-wrapper uk-card uk-card-default uk-card-body" uk-sticky="offset: 20;">
+		<ul class="sidebar-nav uk-list" uk-scrollspy-nav="closest: li; scroll: true">
+			<li>
+				<a href="#templates">Templates</a>
+			</li>
+			<li>
+				<a href="#navbars">Navbars</a>
+			</li>
+			<li>
+				<a href="#sidebars">Sidebars</a>
+			</li>
+			<li>
+				<a href="#icons">Icons</a>
+			</li>
+			<li>
+				<a href="#checkboxes">Checkboxes</a>
+			</li>
+			<li>
+				<a href="#galleries">Galleries</a>
+			</li>
+			<li>
+				<a href="#effects">Effects</a>
+			</li>
+			<li>
+				<a href="#text">Text</a>
+			</li>
+			<li>
+				<a href="#background">Backgrounds</a>
+			</li>
+			<li>
+				<a href="#libraries">Libraries</a>
+			</li>
+			<li>
+				<a href="#maps">Maps</a>
+			</li>
+			<li>
+				<a href="#carousels">Carousels</a>
+			</li>
+			<li>
+				<a href="#interactive">Interactive</a>
+			</li>
+			<li>
+				<a href="#cards">Cards</a>
+			</li>
+			<li>
+				<a href="#dropdowns">Dropdowns</a>
+			</li>
+			<li>
+				<a href="#tooltips">Tooltips</a>
+			</li>
+			<li>
+				<a href="#buttons">Buttons</a>
+			</li>
+			<li>
+				<a href="#captions">Captions</a>
+			</li>
+			<li>
+				<a href="#notifications">Notifications</a>
+			</li>
+			<li>
+				<a href="#inputs">Inputs</a>
+			</li>
+			<li>
+				<a href="#selects">Selects</a>
+			</li>
+			<li>
+				<a href="#different">Different</a>
+			</li>
+		</ul>
+	</div>
+</section>
+
 <!-- Themes section -->
 @@include('./_parts/sections/_templates.html')
 
@@ -15,8 +88,8 @@
 <!-- Checkboxes -->
 @@include('./_parts/sections/_checkboxes.html')
 
-<!-- Gallerys -->
-@@include('./_parts/sections/_gallerys.html')
+<!-- Galleries -->
+@@include('./_parts/sections/_galleries.html')
 
 <!-- Effects -->
 @@include('./_parts/sections/_effects.html')
@@ -43,77 +116,25 @@
 @@include('./_parts/sections/_cards.html')
 
 <!-- Dropdowns -->
-<section id="dropdowns" class="uk-section uk-section-muted">
-	<div class="uk-container">
-		<h1 class="uk-heading-primary">Dropdowns</h1>
-		<div class="links-wrapper">
-			<a class="uk-button link-button uk-button-default" href="http://www.webmasters.by/articles/html-coding/2458-custom-drop-down-list-styling.html">Interest dropdowns</a>
-			<a class="uk-button link-button uk-button-default" href="https://tympanus.net/Development/SimpleDropDownEffects/index6.html">Simple effects for dropdown</a>
-		</div>
-	</div>
-</section>
+@@include('./_parts/sections/_dropdowns.html')
 
 <!-- Tooltips -->
-<section id="tooltips" class="uk-section uk-section-secondary">
-	<div class="uk-container">
-		<h1 class="uk-heading-primary">Tooltips</h1>
-		<div class="links-wrapper">
-			<a class="uk-button link-button uk-button-default" href="https://ruseller.com/lessons.php?rub=2&id=2891">Interest tooltips</a>
-		</div>
-	</div>
-</section>
+@@include('./_parts/sections/_tooltips.html')
 
 <!-- Buttons -->
-<section id="buttons" class="uk-section uk-section-muted">
-	<div class="uk-container">
-		<h1 class="uk-heading-primary">Buttons</h1>
-		<div class="links-wrapper">
-			<a class="uk-button link-button uk-button-default" href="https://tympanus.net/Development/CreativeButtons/">Creative buttons</a>
-			<a class="uk-button link-button uk-button-default" href="https://codepen.io/ARS/pen/vEwEPP?q=gradient&limit=all&type=type-pens">Creative gradient fully css button</a>
-			<a class="uk-button link-button uk-button-default" href="https://codepen.io/chrisR_/pen/ZboMPW?q=gradient&limit=all&type=type-pens">Gradient border animation button</a>
-		</div>
-	</div>
-</section>
+@@include('./_parts/sections/_buttons.html')
 
 <!-- Captions -->
-<section id="captions" class="uk-section uk-section-secondary">
-	<div class="uk-container">
-		<h1 class="uk-heading-primary">Captions</h1>
-		<div class="links-wrapper">
-			<a class="uk-button link-button uk-button-default" href="https://tympanus.net/Tutorials/CaptionHoverEffects/index3.html">Caption hover effects</a>
-		</div>
-	</div>
-</section>
+@@include('./_parts/sections/_captions.html')
 
 <!-- Notifications -->
-<section id="notifications" class="uk-section uk-section-muted">
-	<div class="uk-container">
-		<h1 class="uk-heading-primary">Notifications</h1>
-		<div class="links-wrapper">
-			<a class="uk-button link-button uk-button-default" href="https://tympanus.net/Development/NotificationStyles/growl-jelly.html">Cool notifications</a>
-		</div>
-	</div>
-</section>
+@@include('./_parts/sections/_notifications.html')
 
 <!-- Inputs -->
-<section id="inputs" class="uk-section uk-section-secondary">
-	<div class="uk-container">
-		<h1 class="uk-heading-primary">Inputs</h1>
-		<div class="links-wrapper">
-			<a class="uk-button link-button uk-button-default" href="https://tympanus.net/Development/TextInputEffects/">Text input effects</a>
-		</div>
-	</div>
-</section>
+@@include('./_parts/sections/_inputs.html')
 
 <!-- Selects -->
-<section id="selects" class="uk-section uk-section-muted">
-	<div class="uk-container">
-		<h1 class="uk-heading-primary">Selects</h1>
-		<div class="links-wrapper">
-			<a class="uk-button link-button uk-button-default" href="https://tympanus.net/Development/SelectInspiration/index8.html">Select elements</a>
-		</div>
-	</div>
-</section>
+@@include('./_parts/sections/_selects.html')
 
 <!-- Different -->
 @@include('./_parts/sections/_different.html') @@include('./_parts/_footer.html')
